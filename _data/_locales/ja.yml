@@ -1,0 +1,85 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: 記事
+  category: カテゴリ
+  tag: タグ
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: ホーム
+  categories: カテゴリ
+  tags: タグ
+  archives: アーカイブ
+  about: 概要
+
+# the text displayed in the search bar & search results
+search:
+  hint: 検索
+  cancel: キャンセル
+  no_results: 検索結果がありません。
+
+panel:
+  lastmod: 最終更新
+  trending_tags: 人気のタグ
+  toc: 目次
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: この記事は著作者の :LICENSE_NAME ライセンスに従います。
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: 一部の権利留保
+  verbose: >-
+    特に明記されていない限り、このサイトのブログ記事は著作者の
+    Creative Commons Attribution 4.0 International (CC BY 4.0) ライセンスに基づき利用が許諾されています。
+
+meta: Powered by :PLATFORM with :THEME theme
+
+not_found:
+  statement: 指定されたURLは存在しません。
+
+notification:
+  update_found: 新しいバージョンのコンテンツが利用可能です。
+  update: 更新
+
+# ----- Posts related labels -----
+
+post:
+  written_by: By
+  posted: 投稿日
+  updated: 更新日
+  words: 単語
+  pageview_measure: ビュー
+  read_time:
+    unit: 分
+    prompt: 読む時間
+  edit: この記事を編集
+  relate_posts: 関連記事
+  share: シェア
+  button:
+    next: 次の記事
+    previous: 前の記事
+    copy_code:
+      succeed: コピーしました！
+    share_link:
+      title: リンクをコピー
+      succeed: リンクをコピーしました！
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%Y/%m/%d"
+    dayjs: "YYYY/MM/DD"
+
+# categories page
+categories:
+  category_measure: カテゴリ
+  post_measure: 記事
