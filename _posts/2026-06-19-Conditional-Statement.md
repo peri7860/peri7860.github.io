@@ -2,7 +2,7 @@
 title: "Java基礎知識：条件文（Conditional Statement）のまとめ"
 date: 2026-06-19 22:52:00 +0900
 categories: [JAVA‐入門]  
-tags: [JAVA, String, 参照型, equals()]
+tags: [JAVA, 条件文, if文, switch文]
 ---
 
 # Java基礎知識：条件文（Conditional Statement）のまとめ
@@ -817,7 +817,7 @@ public void login(String id){
 * else if文：複数条件を判定
 * switch文：値による分岐
 * 条件式：trueまたはfalseを返す式
-* 比較演算子：==、 !=、 >、 <、 >=、 <=
+* 比較演算子：`==`、 `!=`、 `>`、 `<`、 `>=`、 `<=`
 * 論理演算子：`&&`、`||`、`!`
 * String比較：equals()
 * 実務では波括弧を省略しない
